@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styling/About.css';
-import { Jumbotron, Button } from 'reactstrap';
+import { Jumbotron } from 'reactstrap';
 import css3 from '../assets/css3.png';
 import html5 from '../assets/html5.png';
 import database from '../assets/database.png';
@@ -13,12 +13,19 @@ import postgresql from '../assets/postgresql.png';
 import restApi from '../assets/rest-api.png';
 import ruby from '../assets/ruby.png';
 import wireframe from '../assets/wireframe.png';
+import react from '../assets/react.png';
+import photoshop from '../assets/photoshop.png';
+import adobeXd from '../assets/adobeXd.png';
+import nodeJs from '../assets/nodejs.png';
 
 export default function About() {
   return (
     <div>
       <div className="jumbo-container">
-        <Jumbotron fluid>
+        <Jumbotron
+          fluid
+          style={{ backgroundColor: 'rgba(247, 228, 170, 0.5)' }}
+        >
           <h1 className="display-3">Zulay Scottborgh</h1>
           <img src="" alt="" className="" />
           <hr className="my-2" />
@@ -29,7 +36,10 @@ export default function About() {
       </div>
 
       <div className="jumbo-container">
-        <Jumbotron fluid>
+        <Jumbotron
+          fluid
+          style={{ backgroundColor: 'rgba(247, 228, 170, 0.5)' }}
+        >
           {/* <img src="" alt="" className="" /> */}
           <p>
             I am a versatile Web Developer and Digital Marketing professional
@@ -58,10 +68,14 @@ export default function About() {
               alt="postgresql-icon"
               className="skills-icon"
             />
+            <img src={react} alt="react-icon" className="skills-icon" />
             <img src={restApi} alt="restApi-icon" className="skills-icon" />
             <img src={ruby} alt="ruby-icon" className="skills-icon" />
             <img src={wireframe} alt="wireframe-icon" className="skills-icon" />
             <img src={json} alt="json-icon" className="skills-icon" />
+            <img src={photoshop} alt="photoshop-icon" className="skills-icon" />
+            <img src={adobeXd} alt="adobeXd-icon" className="skills-icon" />
+            <img src={nodeJs} alt="nodejs-icon" className="skills-icon" />
           </div>
         </Jumbotron>
       </div>
