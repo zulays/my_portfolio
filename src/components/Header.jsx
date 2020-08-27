@@ -10,7 +10,7 @@ import {
 } from 'reactstrap';
 import icon from '../assets/initials.png';
 
-export default function Header() {
+export default function Header(props) {
   const [open, setOpen] = useState(false);
 
   const toggle = () => setOpen(!open);
@@ -36,17 +36,15 @@ export default function Header() {
               <NavItem className="nav-item">contact</NavItem>
             </a>
           </Nav>
-
-          <div className="navbar">
-            <NavbarBrand>
-              <a href="/">
-                {/* zulay scottborgh */}
-                <img src={icon} alt="site-icon" className="logo" />
-              </a>
-            </NavbarBrand>
-          </div>
         </Collapse>
       </Navbar>
+
+      <NavbarBrand>
+        <a href="/">
+          {/* zulay scottborgh */}
+          <img src={icon} alt="site-icon" className="logo" />
+        </a>
+      </NavbarBrand>
     </div>
   );
 }

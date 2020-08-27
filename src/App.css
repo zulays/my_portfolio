@@ -7,3 +7,7 @@
   flex-direction: column;
   color: #5d8aa6;
 }
+
+html {
+  scroll-behavior: smooth;
+}

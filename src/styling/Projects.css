@@ -1,7 +1,14 @@
-.button-bar {
+.projects {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #686868;
+}
+
+.container {
+  margin: 45px;
 }
 
 .project-columns {
@@ -14,10 +21,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: transparent;
 }
 
 .project-buttons {
   margin: 10px;
+}
+
+.button-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .video-clip {

@@ -1,6 +1,8 @@
-.navbar {
+.header {
+  background-color: rgba(247, 228, 170, 0.5);
   display: flex;
   justify-content: space-between;
+  align-content: center;
 }
 
 .nav-item {

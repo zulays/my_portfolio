@@ -17,12 +17,16 @@ import LivingLaVidaVegan from '../assets/living-la-vida-vegan.mp4';
 
 export default function Projects(props) {
   return (
-    <div id="#projects">
+    <div className="projects" id="projects">
       <Container className="container" fluid="md">
         <Row>
           <Col className="project-columns">
             {/* project 1 */}
-            <Card body outline color="info" className="project-cards">
+            <Card
+              outline
+              className="project-cards"
+              style={{ backgroundColor: 'transparent' }}
+            >
               <video
                 autoPlay="autoplay"
                 loop="loop"
@@ -53,7 +57,11 @@ export default function Projects(props) {
 
           <Col className="project-columns">
             {/* project 2 */}
-            <Card body outline color="info" className="project-cards">
+            <Card
+              outline
+              className="project-cards"
+              style={{ backgroundColor: 'transparent' }}
+            >
               <video
                 autoPlay="autoplay"
                 loop="loop"
@@ -86,7 +94,11 @@ export default function Projects(props) {
         <Row>
           <Col className="project-columns">
             {/* project 3 */}
-            <Card body outline color="info" className="project-cards">
+            <Card
+              outline
+              className="project-cards"
+              style={{ backgroundColor: 'transparent' }}
+            >
               <video
                 autoPlay="autoplay"
                 loop="loop"
@@ -118,7 +130,11 @@ export default function Projects(props) {
 
           <Col className="project-columns">
             {/* project 4 */}
-            <Card body outline color="info" className="project-cards">
+            <Card
+              outline
+              className="project-cards"
+              style={{ backgroundColor: 'transparent' }}
+            >
               <video
                 autoPlay="autoplay"
                 loop="loop"

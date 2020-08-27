@@ -19,9 +19,8 @@ import nodeJs from '../assets/nodejs.png';
 
 export default function About() {
   return (
-    <div>
-      <div id="#about" className="container">
-        {/* <h5>About Me</h5> */}
+    <div id="about" className="about-me">
+      <div>
         <p className="brand-statement">
           I am a versatile Web Developer and Digital Marketing professional who
           leverages my three years of experience in storytelling, Web
