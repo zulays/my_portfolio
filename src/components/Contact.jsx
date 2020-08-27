@@ -9,9 +9,15 @@ export default function Contact() {
     <div className="contact-area" id="contact-me">
       <h4>Zulay Scottborgh &copy; 2020</h4>
       <div className="icon-bar">
-        <img src={linkedin} alt="linkedin-icon" className="contact-icons" />
-        <img src={github} alt="github-icon" className="contact-icons" />
-        <img src={email} alt="email-icon" className="contact-icons" />
+        <a href="https://www.linkedin.com/in/zulays/">
+          <img src={linkedin} alt="linkedin-icon" className="contact-icons" />
+        </a>
+        <a href="https://github.com/zulays">
+          <img src={github} alt="github-icon" className="contact-icons" />
+        </a>
+        <a href="mailto:zulay@lifefromabackpack.com">
+          <img src={email} alt="email-icon" className="contact-icons" />
+        </a>
       </div>
     </div>
   );
