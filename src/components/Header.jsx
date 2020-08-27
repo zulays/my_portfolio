@@ -7,14 +7,8 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
 } from 'reactstrap';
-import { Link } from 'react-router-dom';
-import icon from '../assets/logo192.png';
+import icon from '../assets/initials.png';
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -22,45 +16,33 @@ export default function Header() {
   const toggle = () => setOpen(!open);
 
   return (
-    <div>
+    <div className="header">
       <Navbar light expand="md">
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={open} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink>
-                <Link to="#about">About</Link>
-              </NavLink>
-            </NavItem>
-            <Link to="#projects">
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  Projects
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>Travel Scout</DropdownItem>
-                  <DropdownItem>Find Your Center</DropdownItem>
-                  <DropdownItem>myAlpaca</DropdownItem>
-                  <DropdownItem>Living La Vida Vegan</DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
-            </Link>
-            <NavItem>
-              <NavLink>
-                <Link to="#resume">Resume</Link>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink>
-                <Link to="#contact-me">Contact</Link>
-              </NavLink>
-            </NavItem>
+            <a href="#about">
+              <NavItem className="nav-item">about </NavItem>
+            </a>
+
+            <a href="#projects">
+              <NavItem className="nav-item">projects</NavItem>
+            </a>
+            <a href="#resume">
+              <NavItem className="nav-item">resume</NavItem>
+            </a>
+
+            <a href="#contact-me">
+              <NavItem className="nav-item">contact</NavItem>
+            </a>
           </Nav>
 
           <div className="navbar">
-            <img src={icon} alt="site-icon" className="logo" />
             <NavbarBrand>
-              <Link to="/">zulay scottborgh</Link>
+              <a href="/">
+                {/* zulay scottborgh */}
+                <img src={icon} alt="site-icon" className="logo" />
+              </a>
             </NavbarBrand>
           </div>
         </Collapse>
