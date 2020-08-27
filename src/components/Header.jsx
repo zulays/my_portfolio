@@ -28,9 +28,17 @@ export default function Header(props) {
             <a href="#projects">
               <NavItem className="nav-item">projects</NavItem>
             </a>
-            <a href="#resume">
-              <NavItem className="nav-item">resume</NavItem>
-            </a>
+            {/* <a href="#resume"> */}
+            <NavItem className="nav-item">
+              <a
+                href="https://docdro.id/pRKQOBN"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                resume
+              </a>
+            </NavItem>
+            {/* </a> */}
 
             <a href="#contact-me">
               <NavItem className="nav-item">contact</NavItem>
