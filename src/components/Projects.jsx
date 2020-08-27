@@ -7,25 +7,30 @@ import {
   Card,
   CardTitle,
   CardText,
-  CardImg,
   Row,
   Col,
 } from 'reactstrap';
+import travelScout from '../assets/travel-scout.mp4';
+import findYourCenter from '../assets/find-your-center.mp4';
+import myAlpaca from '../assets/myAlpaca.mp4';
+import LivingLaVidaVegan from '../assets/living-la-vida-vegan.mp4';
 
 export default function Projects(props) {
   return (
-    <div>
+    <div id="#projects">
       <Container className="container" fluid="md">
         <Row>
-          <Col md className="project-columns">
+          <Col className="project-columns">
             {/* project 1 */}
             <Card body outline color="info" className="project-cards">
-              <CardImg
-                top
-                width="100%"
-                src="/assets/318x180.svg"
-                alt="Card image cap"
-              />
+              <video
+                autoPlay="autoplay"
+                loop="loop"
+                muted
+                className="video-clip"
+              >
+                <source src={travelScout} type="video/mp4"></source>
+              </video>
               <CardTitle>Travel Scout</CardTitle>
               <CardText>
                 A travel information application built with HTML, CSS,
@@ -46,19 +51,21 @@ export default function Projects(props) {
             </Card>
           </Col>
 
-          <Col md className="project-columns">
+          <Col className="project-columns">
             {/* project 2 */}
             <Card body outline color="info" className="project-cards">
-              <CardImg
-                top
-                width="100%"
-                src="/assets/318x180.svg"
-                alt="Card image cap"
-              />
+              <video
+                autoPlay="autoplay"
+                loop="loop"
+                muted
+                className="video-clip"
+              >
+                <source src={findYourCenter} type="video/mp4"></source>
+              </video>
               <CardTitle>find your center</CardTitle>
               <CardText>
-                An anxiety management application built with React.js, CSS, and
-                Netlify
+                An anxiety management aid application built with React.js, CSS,
+                and Netlify
               </CardText>
               <ButtonToolbar className="button-bar justify-content-space-between">
                 <a href="https://find-your-center.netlify.app/">
@@ -77,16 +84,18 @@ export default function Projects(props) {
         </Row>
 
         <Row>
-          <Col md className="project-columns">
+          <Col className="project-columns">
             {/* project 3 */}
             <Card body outline color="info" className="project-cards">
-              <CardImg
-                top
-                width="100%"
-                src="/assets/318x180.svg"
-                alt="Card image cap"
-              />
-              <CardTitle></CardTitle>
+              <video
+                autoPlay="autoplay"
+                loop="loop"
+                muted
+                className="video-clip"
+              >
+                <source src={myAlpaca} type="video/mp4"></source>
+              </video>
+              <CardTitle>myAlpaca</CardTitle>
               <CardText>
                 A collaboration project with UX designers and co-developers on a
                 study abroad assistant application built with React.js, CSS,
@@ -107,19 +116,21 @@ export default function Projects(props) {
             </Card>
           </Col>
 
-          <Col md className="project-columns">
+          <Col className="project-columns">
             {/* project 4 */}
             <Card body outline color="info" className="project-cards">
-              <CardImg
-                top
-                width="100%"
-                src="/assets/318x180.svg"
-                alt="Card image cap"
-              />
+              <video
+                autoPlay="autoplay"
+                loop="loop"
+                muted
+                className="video-clip"
+              >
+                <source src={LivingLaVidaVegan} type="video/mp4"></source>
+              </video>
               <CardTitle>Living La Vida Vegan</CardTitle>
               <CardText>
-                A full-stack vegan recipe application using React.js, Ruby on
-                Rails, PostgreSQL, Heroku, Surge, and Bootstrap
+                A full-stack vegan recipe tracker application using React.js,
+                Ruby on Rails, PostgreSQL, Heroku, Surge, and Bootstrap
               </CardText>
               <ButtonToolbar className="button-bar justify-content-space-between">
                 <a href="http://livinglavida-vegan.surge.sh/">

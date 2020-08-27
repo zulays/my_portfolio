@@ -29,20 +29,22 @@ export default function Header() {
           <Nav className="mr-auto" navbar>
             <NavItem>
               <NavLink>
-                <Link to="/about">About</Link>
+                <Link to="#about">About</Link>
               </NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Projects
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>Travel Scout</DropdownItem>
-                <DropdownItem>Find Your Center</DropdownItem>
-                <DropdownItem>myAlpaca</DropdownItem>
-                <DropdownItem>Living La Vida Vegan</DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <Link to="#projects">
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  Projects
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>Travel Scout</DropdownItem>
+                  <DropdownItem>Find Your Center</DropdownItem>
+                  <DropdownItem>myAlpaca</DropdownItem>
+                  <DropdownItem>Living La Vida Vegan</DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+            </Link>
             <NavItem>
               <NavLink>
                 <Link to="#resume">Resume</Link>
@@ -54,10 +56,13 @@ export default function Header() {
               </NavLink>
             </NavItem>
           </Nav>
-          <img src={icon} alt="site-icon" className="logo" />
-          <NavbarBrand>
-            <Link to="/">zulay scottborgh</Link>
-          </NavbarBrand>
+
+          <div className="navbar">
+            <img src={icon} alt="site-icon" className="logo" />
+            <NavbarBrand>
+              <Link to="/">zulay scottborgh</Link>
+            </NavbarBrand>
+          </div>
         </Collapse>
       </Navbar>
     </div>

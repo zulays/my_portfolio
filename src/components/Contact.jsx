@@ -6,7 +6,7 @@ import email from '../assets/send-email-contact.png';
 
 export default function Contact() {
   return (
-    <div>
+    <div className="contact-area" id="contact-me">
       <h4>Zulay Scottborgh</h4>
       <img src={linkedin} alt="linkedin-icon" className="contact-icons" />
       <img src={github} alt="github-icon" className="contact-icons" />
