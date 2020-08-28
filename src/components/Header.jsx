@@ -30,7 +30,7 @@ export default function Header(props) {
             </a>
             {/* <a href="#resume"> */}
             <a
-              href="https://docdro.id/pRKQOBN"
+              href="https://docdro.id/DiuBV1n"
               target="_blank"
               rel="noopener noreferrer"
             >
