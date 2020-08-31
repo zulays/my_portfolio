@@ -36,7 +36,6 @@ export default function Header(props) {
             >
               <NavItem className="nav-item">resume</NavItem>
             </a>
-            {/* </a> */}
 
             <a href="#contact-me">
               <NavItem className="nav-item">contact</NavItem>
@@ -47,7 +46,6 @@ export default function Header(props) {
 
       <NavbarBrand>
         <a href="/">
-          {/* zulay scottborgh */}
           <img src={icon} alt="site-icon" className="logo" />
         </a>
       </NavbarBrand>

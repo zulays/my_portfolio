@@ -10,7 +10,6 @@ export default class MyForm extends React.Component {
     };
   }
 
-  // contact form guidance from formspree.io
   render() {
     const { status } = this.state;
     return (
