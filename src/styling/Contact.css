@@ -1,13 +1,30 @@
-.contact-area {
-  background-color: rgba(247, 228, 170, 0.5);
+.contact-form {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  /* justify-content: flex-start; */
   align-items: center;
-  align-content: center;
-  padding: 10px;
+  margin: 30px auto;
+  color: #5d8aa6;
+  font-family: 'Comfortaa', cursive;
 }
 
-.contact-icons {
-  margin: 10px;
+.label {
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+input {
+  width: 300px;
+}
+
+.form-group-message {
+  width: 300px;
+  height: 200px;
+}
+
+.send-button {
+  border-radius: 4px;
+  border: 2px solid #5d8aa6;
+  background-color: transparent;
+  color: #5d8aa6;
 }

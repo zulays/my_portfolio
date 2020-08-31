@@ -16,6 +16,7 @@ import react from '../assets/react.png';
 import photoshop from '../assets/photoshop.png';
 import adobeXd from '../assets/adobeXd.png';
 import nodeJs from '../assets/nodejs.png';
+import rails from '../assets/rails.png';
 
 export default function About() {
   return (
@@ -42,6 +43,7 @@ export default function About() {
           <img src={postgresql} alt="postgresql-icon" className="skills-icon" />
           <img src={react} alt="react-icon" className="skills-icon" />
           <img src={restApi} alt="restApi-icon" className="skills-icon" />
+          <img src={rails} alt="rails-icon" className="skills-icon" />
           <img src={ruby} alt="ruby-icon" className="skills-icon" />
           <img src={wireframe} alt="wireframe-icon" className="skills-icon" />
           <img src={json} alt="json-icon" className="skills-icon" />
