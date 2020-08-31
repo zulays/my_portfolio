@@ -10,38 +10,25 @@ export default class MyForm extends React.Component {
     };
   }
 
+  // contact form guidance from formspree.io
   render() {
     const { status } = this.state;
     return (
-      // contact form guidance from formspree.io
       <form
         className="contact-form"
         onSubmit={this.submitForm}
         action="https://formspree.io/maypgevj"
         method="POST"
       >
-        <div className="form-group">
-          {/* <label className="label">First Name:</label> */}
-          <input type="text" name="first-name" placeholder="First Name" />
-        </div>
-        <div className="form-group">
-          {/* <label className="label">Last Name:</label> */}
-          <input type="text" name="last-name" placeholder="Last Name" />
-        </div>
-        <div className="form-group">
-          {/* <label className="label">Email:</label> */}
-          <input type="email" name="email" placeholder="Email Address" />
-        </div>
-        <div>
-          {/* <label className="label">Message:</label> */}
-          <textarea
-            className="form-group-message"
-            type="text"
-            name="message"
-            placeholder="Message"
-          ></textarea>
-        </div>
-
+        <input type="text" name="first-name" placeholder="First Name" />
+        <input type="text" name="last-name" placeholder="Last Name" />
+        <input type="email" name="email" placeholder="Email Address" />
+        <textarea
+          className="form-group-message"
+          type="text"
+          name="message"
+          placeholder="Message"
+        ></textarea>
         {status === 'SUCCESS' ? (
           <p>Thanks!</p>
         ) : (
