@@ -19,9 +19,24 @@ export default class MyForm extends React.Component {
         action="https://formspree.io/maypgevj"
         method="POST"
       >
-        <input type="text" name="first-name" placeholder="First Name" />
-        <input type="text" name="last-name" placeholder="Last Name" />
-        <input type="email" name="email" placeholder="Email Address" />
+        <input
+          type="text"
+          name="first-name"
+          placeholder="First Name"
+          className="contact-input"
+        />
+        <input
+          type="text"
+          name="last-name"
+          placeholder="Last Name"
+          className="contact-input"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Email Address"
+          className="contact-input"
+        />
         <textarea
           className="form-group-message"
           type="text"
