@@ -18,7 +18,7 @@ import LivingLaVidaVegan from '../assets/living-la-vida-vegan.mp4';
 export default function Projects(props) {
   return (
     <div className="projects" id="projects">
-      <Container className="container" fluid="md">
+      <Container className="jumbotron mx-2 mb-2">
         <Row>
           <Col className="project-columns">
             {/* project 1 */}
