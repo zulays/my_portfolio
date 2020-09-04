@@ -6,8 +6,8 @@ import email from '../assets/send-email-contact.png';
 
 export default function Footer() {
   return (
-    <div className="footer" id="contact-me">
-      <h4>Zulay Scottborgh &copy; 2020</h4>
+    <div className="footer">
+      <h6 className="copyright-name">Zulay Scottborgh &copy; 2020</h6>
       <div className="icon-bar">
         <a href="https://www.linkedin.com/in/zulays/">
           <img src={linkedin} alt="linkedin-icon" className="contact-icons" />
