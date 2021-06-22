@@ -30,7 +30,7 @@ export default function Header(props) {
             </a>
             {/* <a href="#resume"> */}
             <a
-              href="https://drive.google.com/file/d/1juHGxdNVlaata3SwowqmWUOSD2nTJa55/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ZB_S67n-nhsHW3eYlzqRhLA7UoZBgSxD/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
