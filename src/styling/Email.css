@@ -1,12 +1,34 @@
 	/* Styling to each individual section */
-	.section{
-
+	.ao-section{
     height: 100%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		color: #ffffff;
     border: 1pt solid #E6358B;
+    background-color: #ffffff;
+    margin: 20px;
+	}
+
+  .pb-section{
+    height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #ffffff;
+    border: 1pt solid #2540d5;
+    background-color: #ffffff;
+    margin: 20px;
+	}
+
+  .sw-section{
+    height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #ffffff;
+    border: 1pt solid #cad1f4;
+    background-color: #ffffff;
     margin: 20px;
 	}
 
@@ -18,13 +40,17 @@
 		display: none;
 	}
 
+  .top {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
   div.scrollmenu {
-    width: 70vw;
+    width: 80vw;
 		height: 90vh;
 		display: flex;
     flex-direction: row;
 		align-items: center;
-    background-color: #ffffff;
+    border: 1pt solid #686868;
     overflow: auto;
     white-space: nowrap;
     padding: 20px;

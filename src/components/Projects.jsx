@@ -19,7 +19,7 @@ import LivingLaVidaVegan from '../assets/living-la-vida-vegan.mp4';
 export default function Projects(props) {
   return (
     <div className="projects" id="projects">
-      <h4 className="section-title">software development</h4>
+      <h4 className="section-title top">software development</h4>
 
       <Container className="jumbotron mx-2 mb-2">
         <Row>
