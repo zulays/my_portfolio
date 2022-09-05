@@ -22,13 +22,13 @@ export default function Header(props) {
         <Collapse isOpen={open} navbar>
           <Nav className="mr-auto" navbar>
             <a href="#about">
-              <NavItem className="nav-item">about </NavItem>
+              <NavItem className="nav-item">about</NavItem>
             </a>
 
-            <a href="#projects">
+            <a href="/projects">
               <NavItem className="nav-item">projects</NavItem>
             </a>
-            {/* <a href="#resume"> */}
+
             <a
               href="https://drive.google.com/file/d/1ZB_S67n-nhsHW3eYlzqRhLA7UoZBgSxD/view?usp=sharing"
               target="_blank"

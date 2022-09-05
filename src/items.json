@@ -1,0 +1,30 @@
+[
+  {
+    "src": "#",
+    "altText": "Email1",
+    "caption": "things here",
+    "key": 1,
+    "codeBlock": "#"
+  },
+  {
+    "src": "#",
+    "altText": "Email2",
+    "caption": "things here",
+    "key": 2,
+    "codeBlock": "#"
+  },
+  {
+    "src": "#",
+    "altText": "Email3",
+    "caption": "things here",
+    "key": 3,
+    "codeBlock": "#"
+  },
+  {
+    "src": "#",
+    "altText": "Email4",
+    "caption": "things here",
+    "key": 4,
+    "codeBlock": "#"
+  }
+]

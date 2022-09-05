@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styling/Projects.css';
+import Email from './Email';
 import {
   Container,
   Button,
@@ -18,6 +19,8 @@ import LivingLaVidaVegan from '../assets/living-la-vida-vegan.mp4';
 export default function Projects(props) {
   return (
     <div className="projects" id="projects">
+      <h4 className="section-title">software development</h4>
+
       <Container className="jumbotron mx-2 mb-2">
         <Row>
           <Col className="project-columns">
@@ -164,6 +167,8 @@ export default function Projects(props) {
           </Col>
         </Row>
       </Container>
+
+      <Email />
     </div>
   );
 }

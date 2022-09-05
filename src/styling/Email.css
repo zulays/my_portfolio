@@ -1,0 +1,39 @@
+	/* Styling to each individual section */
+	.section{
+
+    height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #ffffff;
+    border: 1pt solid #E6358B;
+    margin: 20px;
+	}
+
+  .section-title {
+    margin: 20px;
+  }
+	/* For hiding scroll bar */
+	::-webkit-scrollbar{
+		display: none;
+	}
+
+  div.scrollmenu {
+    width: 70vw;
+		height: 90vh;
+		display: flex;
+    flex-direction: row;
+		align-items: center;
+    background-color: #ffffff;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 20px;
+    margin-bottom: 80px;
+  }
+
+  div.scrollmenu a {
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
